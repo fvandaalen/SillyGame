@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package game;
+package game.Player;
 
 /**
  *
@@ -12,7 +12,19 @@ package game;
 public class Player {
     private String name;
     
+    /**
+     * initializes a player
+     * @param name 
+     */
     public Player(String name){
         this.name = name;
+    }
+    
+    /**
+     * returns the name of the player
+     * @return 
+     */
+    public String getName(){
+        return name;
     }
 }

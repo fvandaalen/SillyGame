@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package game;
+package game.World;
 
 /**
  *
@@ -12,6 +12,11 @@ package game;
 public class Position {
     public int x,y;
     
+    /**
+     * initializes a position
+     * @param x
+     * @param y 
+     */
     public Position(int x, int y){
         this.x = x;
         this.y = y;

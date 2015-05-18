@@ -20,7 +20,7 @@ public class Board {
     }
     
     public Square[][] getBoard(){
-        return board;
+        return board; 
     }
     
     public void place(Piece piece, Position p){
